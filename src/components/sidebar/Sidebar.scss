@@ -1,0 +1,29 @@
+.sidebar-container {
+    width: 264px;
+    height: fit-content;
+    border: 1px solid rgba(207, 207, 228, 1);
+    padding: 12px;
+    gap: 0px;
+    border-radius: 18px;
+    
+}
+
+.sidebar-list {
+
+}
+
+.sidebar-list-element {
+    width: 222px;
+height: fit-content;
+padding: 12px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+cursor: pointer;
+
+    &.active {
+        background-color: rgba(95, 191, 119, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
