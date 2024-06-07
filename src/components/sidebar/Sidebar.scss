@@ -1,19 +1,29 @@
-.sidebar-container {
+.sidebar__container {
     width: 264px;
     height: fit-content;
     border: 1px solid rgba(207, 207, 228, 1);
     padding: 12px;
     gap: 0px;
     border-radius: 18px;
-    
+    margin-right: 24px
 }
 
-.sidebar-list {
+.sidebar__list {
+
 
 }
 
-.sidebar-list-element {
-    width: 222px;
+.sidebar_list_element {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+
+
+
+
+
+min-width: 240px;
 height: fit-content;
 padding: 12px;
 gap: 0px;
@@ -27,3 +37,11 @@ cursor: pointer;
     }
 }
 
+
+
+@media (max-width: 663px) {
+    .sidebar__container {
+        width: 100%;
+        margin-right: 0;
+    }
+}

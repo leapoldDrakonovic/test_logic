@@ -1,5 +1,10 @@
+@forward "../../_font.scss";
+
+
 *, *:before, *:after{
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(57, 65, 75, 1);
   }
   
   html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
@@ -7,7 +12,7 @@
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-weight: 800;
     vertical-align: baseline;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -44,3 +49,21 @@
     -webkit-appearance: none;
     border-radius: 0;
   }
+
+
+.main__container {
+  padding: 24px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 100%;
+  margin: 10px;
+
+  margin: 0 auto;
+}
+
+@media (max-width: 663px) {
+  .main__container {
+    flex-wrap: wrap;
+  }
+}
